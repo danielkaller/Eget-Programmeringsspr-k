@@ -1,0 +1,32 @@
+int x = 3;
+
+print(x);
+
+bool d = true;
+
+def factorial(int x)
+    if(x == 1) {
+        return 1;
+    }
+
+    return x * factorial(x-1);
+
+end
+
+def arithmeticsum(int n, int d)
+    int sum = 0;
+
+    for(int i = 0; i <= n; i++){
+        sum = sum + i*d;
+    }
+
+    return sum;
+end
+
+if(d == true) {
+    print("d is true");
+}
+
+array a = [1, [0, 1], 3];
+print(a);
+print(a[0]);
